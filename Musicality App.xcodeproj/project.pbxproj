@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1500E2B2224AB90900322FBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2B1224AB90900322FBB /* AppDelegate.swift */; };
+		1500E2B7224AB90900322FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1500E2B5224AB90900322FBB /* Main.storyboard */; };
+		1500E2B9224AB90B00322FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1500E2B8224AB90B00322FBB /* Assets.xcassets */; };
+		1500E2BC224AB90B00322FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1500E2BA224AB90B00322FBB /* LaunchScreen.storyboard */; };
+		1500E2C4224AB95900322FBB /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2C3224AB95900322FBB /* BaseScreen.swift */; };
+		1500E2C6224AB97F00322FBB /* Utility Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2C5224AB97F00322FBB /* Utility Classes.swift */; };
+		1500E2D4224AB9E700322FBB /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2C7224AB9E600322FBB /* GameManager.swift */; };
+		1500E2D5224AB9E700322FBB /* GameDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2C8224AB9E600322FBB /* GameDataSource.swift */; };
+		1500E2D6224AB9E700322FBB /* GameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2C9224AB9E600322FBB /* GameScreen.swift */; };
+		1500E2D7224AB9E700322FBB /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2CA224AB9E600322FBB /* Settings.swift */; };
+		1500E2D8224AB9E700322FBB /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2CB224AB9E600322FBB /* StartScreen.swift */; };
+		1500E2D9224AB9E700322FBB /* GestureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2CC224AB9E600322FBB /* GestureManager.swift */; };
+		1500E2DA224AB9E700322FBB /* ButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2CD224AB9E600322FBB /* ButtonNode.swift */; };
+		1500E2DB224AB9E700322FBB /* LabelNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2CE224AB9E600322FBB /* LabelNode.swift */; };
+		1500E2DC224AB9E700322FBB /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2CF224AB9E600322FBB /* RootViewController.swift */; };
+		1500E2DD224AB9E700322FBB /* SoundsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2D0224AB9E600322FBB /* SoundsManager.swift */; };
+		1500E2DE224AB9E700322FBB /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2D1224AB9E600322FBB /* Consts.swift */; };
+		1500E2DF224AB9E700322FBB /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2D2224AB9E600322FBB /* HUD.swift */; };
+		1500E2E0224AB9E700322FBB /* RetryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2D3224AB9E600322FBB /* RetryNode.swift */; };
+		1500E2E2224ABB2400322FBB /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E2E1224ABB2400322FBB /* UserDefaultsExtension.swift */; };
+		1500E2F0224D741600322FBB /* Chinese drum.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1500E2E7224D741500322FBB /* Chinese drum.wav */; };
+		1500E2F1224D741600322FBB /* Piano.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1500E2E8224D741500322FBB /* Piano.wav */; };
+		1500E2F2224D741600322FBB /* Violin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1500E2E9224D741500322FBB /* Violin.wav */; };
+		1500E2F3224D741600322FBB /* Gameover.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1500E2EA224D741500322FBB /* Gameover.wav */; };
+		1500E2F4224D741600322FBB /* Upright.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1500E2EB224D741500322FBB /* Upright.wav */; };
+		1500E2F5224D741600322FBB /* Drum.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1500E2EC224D741600322FBB /* Drum.wav */; };
+		1500E2F6224D741600322FBB /* Clarinet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1500E2ED224D741600322FBB /* Clarinet.wav */; };
+		1500E2F7224D741600322FBB /* Bass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1500E2EE224D741600322FBB /* Bass.wav */; };
+		1500E2F8224D741600322FBB /* FrenchHorn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1500E2EF224D741600322FBB /* FrenchHorn.wav */; };
+		1500E321224EC6B000322FBB /* SegmentedControlNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1500E320224EC6B000322FBB /* SegmentedControlNode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1500E2AE224AB90900322FBB /* Musicality App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Musicality App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1500E2B1224AB90900322FBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1500E2B6224AB90900322FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1500E2B8224AB90B00322FBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1500E2BB224AB90B00322FBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1500E2BD224AB90B00322FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1500E2C3224AB95900322FBB /* BaseScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
+		1500E2C5224AB97F00322FBB /* Utility Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Utility Classes.swift"; sourceTree = "<group>"; };
+		1500E2C7224AB9E600322FBB /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		1500E2C8224AB9E600322FBB /* GameDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDataSource.swift; sourceTree = "<group>"; };
+		1500E2C9224AB9E600322FBB /* GameScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScreen.swift; sourceTree = "<group>"; };
+		1500E2CA224AB9E600322FBB /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		1500E2CB224AB9E600322FBB /* StartScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		1500E2CC224AB9E600322FBB /* GestureManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureManager.swift; sourceTree = "<group>"; };
+		1500E2CD224AB9E600322FBB /* ButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonNode.swift; sourceTree = "<group>"; };
+		1500E2CE224AB9E600322FBB /* LabelNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelNode.swift; sourceTree = "<group>"; };
+		1500E2CF224AB9E600322FBB /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		1500E2D0224AB9E600322FBB /* SoundsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundsManager.swift; sourceTree = "<group>"; };
+		1500E2D1224AB9E600322FBB /* Consts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		1500E2D2224AB9E600322FBB /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		1500E2D3224AB9E600322FBB /* RetryNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetryNode.swift; sourceTree = "<group>"; };
+		1500E2E1224ABB2400322FBB /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		1500E2E7224D741500322FBB /* Chinese drum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Chinese drum.wav"; sourceTree = "<group>"; };
+		1500E2E8224D741500322FBB /* Piano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Piano.wav; sourceTree = "<group>"; };
+		1500E2E9224D741500322FBB /* Violin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Violin.wav; path = ../../../../../Documents/GitHub/Runner/Musicality.playground/Resources/Violin.wav; sourceTree = "<group>"; };
+		1500E2EA224D741500322FBB /* Gameover.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Gameover.wav; sourceTree = "<group>"; };
+		1500E2EB224D741500322FBB /* Upright.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Upright.wav; sourceTree = "<group>"; };
+		1500E2EC224D741600322FBB /* Drum.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Drum.wav; sourceTree = "<group>"; };
+		1500E2ED224D741600322FBB /* Clarinet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Clarinet.wav; sourceTree = "<group>"; };
+		1500E2EE224D741600322FBB /* Bass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bass.wav; sourceTree = "<group>"; };
+		1500E2EF224D741600322FBB /* FrenchHorn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = FrenchHorn.wav; sourceTree = "<group>"; };
+		1500E320224EC6B000322FBB /* SegmentedControlNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SegmentedControlNode.swift; path = "Musicality App/Nodes/SegmentedControlNode.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1500E2AB224AB90900322FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1500E2A5224AB90900322FBB = {
+			isa = PBXGroup;
+			children = (
+				1500E2B0224AB90900322FBB /* Musicality App */,
+				1500E2AF224AB90900322FBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1500E2AF224AB90900322FBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1500E2AE224AB90900322FBB /* Musicality App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1500E2B0224AB90900322FBB /* Musicality App */ = {
+			isa = PBXGroup;
+			children = (
+				157A0034231AE1E30027F040 /* Extensions */,
+				1500E2E3224C11EC00322FBB /* Scenes */,
+				157A0036231AE22D0027F040 /* Nodes */,
+				157A0035231AE2190027F040 /* Managers */,
+				1500E2E6224D736400322FBB /* Sounds */,
+				1500E2B1224AB90900322FBB /* AppDelegate.swift */,
+				1500E2C5224AB97F00322FBB /* Utility Classes.swift */,
+				1500E2D1224AB9E600322FBB /* Consts.swift */,
+				1500E2C8224AB9E600322FBB /* GameDataSource.swift */,
+				1500E2CF224AB9E600322FBB /* RootViewController.swift */,
+				1500E2B8224AB90B00322FBB /* Assets.xcassets */,
+				1500E2BA224AB90B00322FBB /* LaunchScreen.storyboard */,
+				1500E2B5224AB90900322FBB /* Main.storyboard */,
+				1500E2BD224AB90B00322FBB /* Info.plist */,
+			);
+			path = "Musicality App";
+			sourceTree = "<group>";
+		};
+		1500E2E3224C11EC00322FBB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1500E2CB224AB9E600322FBB /* StartScreen.swift */,
+				1500E2C3224AB95900322FBB /* BaseScreen.swift */,
+				1500E2CA224AB9E600322FBB /* Settings.swift */,
+				1500E2C9224AB9E600322FBB /* GameScreen.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1500E2E6224D736400322FBB /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1500E2EE224D741600322FBB /* Bass.wav */,
+				1500E2E7224D741500322FBB /* Chinese drum.wav */,
+				1500E2ED224D741600322FBB /* Clarinet.wav */,
+				1500E2EC224D741600322FBB /* Drum.wav */,
+				1500E2EF224D741600322FBB /* FrenchHorn.wav */,
+				1500E2EA224D741500322FBB /* Gameover.wav */,
+				1500E2E8224D741500322FBB /* Piano.wav */,
+				1500E2EB224D741500322FBB /* Upright.wav */,
+				1500E2E9224D741500322FBB /* Violin.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		157A0034231AE1E30027F040 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1500E2E1224ABB2400322FBB /* UserDefaultsExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		157A0035231AE2190027F040 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1500E2D0224AB9E600322FBB /* SoundsManager.swift */,
+				1500E2C7224AB9E600322FBB /* GameManager.swift */,
+				1500E2CC224AB9E600322FBB /* GestureManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		157A0036231AE22D0027F040 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				1500E2D2224AB9E600322FBB /* HUD.swift */,
+				1500E2CD224AB9E600322FBB /* ButtonNode.swift */,
+				1500E2CE224AB9E600322FBB /* LabelNode.swift */,
+				1500E320224EC6B000322FBB /* SegmentedControlNode.swift */,
+				1500E2D3224AB9E600322FBB /* RetryNode.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1500E2AD224AB90900322FBB /* Musicality App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1500E2C0224AB90B00322FBB /* Build configuration list for PBXNativeTarget "Musicality App" */;
+			buildPhases = (
+				1500E2AA224AB90900322FBB /* Sources */,
+				1500E2AB224AB90900322FBB /* Frameworks */,
+				1500E2AC224AB90900322FBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Musicality App";
+			productName = "Musicality App";
+			productReference = 1500E2AE224AB90900322FBB /* Musicality App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1500E2A6224AB90900322FBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Alessio Perrotti";
+				TargetAttributes = {
+					1500E2AD224AB90900322FBB = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 1500E2A9224AB90900322FBB /* Build configuration list for PBXProject "Musicality App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1500E2A5224AB90900322FBB;
+			productRefGroup = 1500E2AF224AB90900322FBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1500E2AD224AB90900322FBB /* Musicality App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1500E2AC224AB90900322FBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1500E2F1224D741600322FBB /* Piano.wav in Resources */,
+				1500E2F7224D741600322FBB /* Bass.wav in Resources */,
+				1500E2BC224AB90B00322FBB /* LaunchScreen.storyboard in Resources */,
+				1500E2B9224AB90B00322FBB /* Assets.xcassets in Resources */,
+				1500E2B7224AB90900322FBB /* Main.storyboard in Resources */,
+				1500E2F4224D741600322FBB /* Upright.wav in Resources */,
+				1500E2F5224D741600322FBB /* Drum.wav in Resources */,
+				1500E2F2224D741600322FBB /* Violin.wav in Resources */,
+				1500E2F8224D741600322FBB /* FrenchHorn.wav in Resources */,
+				1500E2F3224D741600322FBB /* Gameover.wav in Resources */,
+				1500E2F6224D741600322FBB /* Clarinet.wav in Resources */,
+				1500E2F0224D741600322FBB /* Chinese drum.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1500E2AA224AB90900322FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1500E2D5224AB9E700322FBB /* GameDataSource.swift in Sources */,
+				1500E2DE224AB9E700322FBB /* Consts.swift in Sources */,
+				1500E2DA224AB9E700322FBB /* ButtonNode.swift in Sources */,
+				1500E2D7224AB9E700322FBB /* Settings.swift in Sources */,
+				1500E2E2224ABB2400322FBB /* UserDefaultsExtension.swift in Sources */,
+				1500E2DF224AB9E700322FBB /* HUD.swift in Sources */,
+				1500E321224EC6B000322FBB /* SegmentedControlNode.swift in Sources */,
+				1500E2DC224AB9E700322FBB /* RootViewController.swift in Sources */,
+				1500E2B2224AB90900322FBB /* AppDelegate.swift in Sources */,
+				1500E2E0224AB9E700322FBB /* RetryNode.swift in Sources */,
+				1500E2C6224AB97F00322FBB /* Utility Classes.swift in Sources */,
+				1500E2DD224AB9E700322FBB /* SoundsManager.swift in Sources */,
+				1500E2D8224AB9E700322FBB /* StartScreen.swift in Sources */,
+				1500E2C4224AB95900322FBB /* BaseScreen.swift in Sources */,
+				1500E2DB224AB9E700322FBB /* LabelNode.swift in Sources */,
+				1500E2D6224AB9E700322FBB /* GameScreen.swift in Sources */,
+				1500E2D4224AB9E700322FBB /* GameManager.swift in Sources */,
+				1500E2D9224AB9E700322FBB /* GestureManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1500E2B5224AB90900322FBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1500E2B6224AB90900322FBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1500E2BA224AB90B00322FBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1500E2BB224AB90B00322FBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1500E2BE224AB90B00322FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1500E2BF224AB90B00322FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1500E2C1224AB90B00322FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FSL5MASH7;
+				INFOPLIST_FILE = "Musicality App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.perrottialessio.MusicaliTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1500E2C2224AB90B00322FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FSL5MASH7;
+				INFOPLIST_FILE = "Musicality App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.perrottialessio.MusicaliTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1500E2A9224AB90900322FBB /* Build configuration list for PBXProject "Musicality App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1500E2BE224AB90B00322FBB /* Debug */,
+				1500E2BF224AB90B00322FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1500E2C0224AB90B00322FBB /* Build configuration list for PBXNativeTarget "Musicality App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1500E2C1224AB90B00322FBB /* Debug */,
+				1500E2C2224AB90B00322FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1500E2A6224AB90900322FBB /* Project object */;
+}
